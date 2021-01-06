@@ -29,4 +29,3 @@ open('data.txt', 'w').close()
 with open('data.txt', 'w') as file:
      file.write(json.dumps(usInfo))
 print("Wrote data to data.txt.")
-#hi sean
